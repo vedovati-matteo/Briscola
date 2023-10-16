@@ -1,0 +1,64 @@
+{
+    "message_type": "game_state_update",
+    "data": {
+      "game_type": 3,
+      "players": [
+        {
+          "name": "MinnieAI",
+          "ID": 0
+        },
+        {
+          "name": "Pippo",
+          "ID": 1
+        },
+        {
+          "name": "Paperino",
+          "ID": 2
+        },
+        {
+          "name": "PlutoAI",
+          "ID": 3
+        },
+        {
+          "name": "TopolinoAI",
+          "ID": 4
+        }
+      ],
+      "current_phase": "bidding",
+      "current_player": 1,
+      "player": 2,
+      "role": 1,
+      "hand": [
+        {
+          "rank": "FOUR",
+          "suit": "CLUBS"
+        },
+        {
+          "rank": "SIX",
+          "suit": "SWORDS"
+        }
+      ],
+      "bid_history": [
+        {
+          "player": 0,
+          "bid": "PASS"
+        },
+        {
+          "player": 1,
+          "bid": "PASS"
+        },
+        {
+          "player": 2,
+          "bid": "Ace"
+        },
+        {
+          "player": 3,
+          "bid": "PASS"
+        },
+        {
+          "player": 4,
+          "bid": "PASS"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,262 @@
+{
+    "message_type": "game_state_update",
+    "data": {
+      "game_type": 3,
+      "players": [
+        {
+          "name": "MinnieAI",
+          "ID": 0
+        },
+        {
+          "name": "Pippo",
+          "ID": 1
+        },
+        {
+          "name": "Paperino",
+          "ID": 2
+        },
+        {
+          "name": "PlutoAI",
+          "ID": 3
+        },
+        {
+          "name": "TopolinoAI",
+          "ID": 4
+        }
+      ],
+      "current_phase": "game",
+      "current_player": 1,
+      "player": 2,
+      "role": 1,
+      "hand": [
+        {
+          "rank": "FOUR",
+          "suit": "CLUBS"
+        },
+        {
+          "rank": "SIX",
+          "suit": "SWORDS"
+        }
+      ],
+      "bid_history": [
+        {
+          "player": 0,
+          "bid": "PASS"
+        },
+        {
+          "player": 1,
+          "bid": "PASS"
+        },
+        {
+          "player": 2,
+          "bid": "Ace"
+        },
+        {
+          "player": 3,
+          "bid": "PASS"
+        },
+        {
+          "player": 4,
+          "bid": "PASS"
+        }
+      ],
+      "bidder": 2,
+      "briscola": {
+        "rank": "ACE",
+        "suit": "CLUBS"
+      },
+      "partner": 1,
+      "current_round": 7,
+      "rounds": {
+        "1": {
+          "0": {
+            "played": true,
+            "rank": "KING",
+            "suit": "CLUBS"
+          },
+          "1": {
+            "played": true,
+            "rank": "FIVE",
+            "suit": "SWORDS"
+          },
+          "2": {
+            "played": true,
+            "rank": "THREE",
+            "suit": "CLUBS"
+          },
+          "3": {
+            "played": true,
+            "rank": "SEVEN",
+            "suit": "COINS"
+          },
+          "4": {
+            "played": true,
+            "rank": "SIX",
+            "suit": "COINS"
+          },
+          "winner": 2
+        },
+        "2": {
+          "0": {
+            "played": true,
+            "rank": "ACE",
+            "suit": "SWORDS"
+          },
+          "1": {
+            "played": true,
+            "rank": "KING",
+            "suit": "CUPS"
+          },
+          "2": {
+            "played": true,
+            "rank": "TWO",
+            "suit": "CLUBS"
+          },
+          "3": {
+            "played": true,
+            "rank": "TWO",
+            "suit": "CUPS"
+          },
+          "4": {
+            "played": true,
+            "rank": "TWO",
+            "suit": "SWORDS"
+          },
+          "winner": 2
+        },
+        "3": {
+          "0": {
+            "played": true,
+            "rank": "ACE",
+            "suit": "COINS"
+          },
+          "1": {
+            "played": true,
+            "rank": "SEVEN",
+            "suit": "CLUBS"
+          },
+          "2": {
+            "played": true,
+            "rank": "FIVE",
+            "suit": "COINS"
+          },
+          "3": {
+            "played": true,
+            "rank": "KING",
+            "suit": "COINS"
+          },
+          "4": {
+            "played": true,
+            "rank": "SEVEN",
+            "suit": "SWORDS"
+          },
+          "winner": 1
+        },
+        "4": {
+          "0": {
+            "played": true,
+            "rank": "ACE",
+            "suit": "CUPS"
+          },
+          "1": {
+            "played": true,
+            "rank": "KNAVE",
+            "suit": "CUPS"
+          },
+          "2": {
+            "played": true,
+            "rank": "KING",
+            "suit": "SWORDS"
+          },
+          "3": {
+            "played": true,
+            "rank": "KNAVE",
+            "suit": "SWORDS"
+          },
+          "4": {
+            "played": true,
+            "rank": "KNIGHT",
+            "suit": "SWORDS"
+          },
+          "winner": 0
+        },
+        "5": {
+          "0": {
+            "played": true,
+            "rank": "KNAVE",
+            "suit": "COINS"
+          },
+          "1": {
+            "played": true,
+            "rank": "FIVE",
+            "suit": "CLUBS"
+          },
+          "2": {
+            "played": true,
+            "rank": "FOUR",
+            "suit": "SWORDS"
+          },
+          "3": {
+            "played": true,
+            "rank": "KNIGHT",
+            "suit": "COINS"
+          },
+          "4": {
+            "played": true,
+            "rank": "SIX",
+            "suit": "CLUBS"
+          },
+          "winner": 4
+        },
+        "6": {
+          "0": {
+            "played": true,
+            "rank": "THREE",
+            "suit": "CUPS"
+          },
+          "1": {
+            "played": true,
+            "rank": "THREE",
+            "suit": "COINS"
+          },
+          "2": {
+            "played": true,
+            "rank": "SEVEN",
+            "suit": "CUPS"
+          },
+          "3": {
+            "played": true,
+            "rank": "TWO",
+            "suit": "COINS"
+          },
+          "4": {
+            "played": true,
+            "rank": "FIVE",
+            "suit": "CUPS"
+          },
+          "winner": 0
+        },
+        "7": {
+          "0": {
+            "played": true,
+            "rank": "KNAVE",
+            "suit": "CLUBS"
+          },
+          "1": {
+            "played": true,
+            "rank": "ACE",
+            "suit": "CLUBS"
+          },
+          "2": {
+            "played": false
+          },
+          "3": {
+            "played": false
+          },
+          "4": {
+            "played": false
+          }
+        }
+      }
+    }
+  }
